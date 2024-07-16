@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    text-align: center;
+    max-width: 500px;
+    min-height: 300px;
+    padding: 20px;
+    background-color: rgb(46, 121, 170);
+    margin: 25em auto;
+    border-radius: 10px;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(23, 27, 37);
+}
+
+#tempInput {
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.buttonConverter {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#btnCelsius,
+#btnFahrenheit,
+#btnClear {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(194, 211, 101);
+    border-radius: 10px;
+    min-width: 100px;
+    gap: 30px;
+    flex: 1;
+}
